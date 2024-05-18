@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+   
+    .flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   .container{
+      background-color: #F0F1EC;
+      display: grid; 
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+       width: 721px;
+      height: 721px;
+      
+    }
+    .one{
+      background-color: red;
+      border-right: 9px solid black;
+      border-bottom: 9px solid black;
+        
+    }
+       .two{
+        border-bottom: 9px solid black;
+      grid-column: span 3;
+      }
+      .three{
+        border-bottom: 9px solid black;
+        border-right: 9px solid black;
+        grid-row: span 2;
+      }
+      .four{
+        border-right: 9px solid black;
+        border-bottom: 9px solid black;
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .five{
+        background-color: #004592;
+        border-bottom: 10px solid black;
+      }
+      .six{
+ grid-row: span 2;
+      }
+      .seven{
+        border-right: 9px solid black;
+      }
+      .eight{
+        background-color:#F9D01E ;
+        border-right: 9px solid black;
+      }
+      .nine{
+ background-color: #232629;
+ border-right: 9px solid black;
+      }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="flex">
+  <div class="container">
+  <div class="one"></div>
+  <div class="two"></div>  
+  <div class="three"></div>
+  <div class="four"></div>
+  <div class="five"></div>
+  <div class="six"></div>
+  <div class="seven"></div>
+  <div class="eight"></div>
+  <div class="nine"></div>
+</div>
+</div>
+</body>
+<hr/>
+<footer>
+  <p>&copy 2024 Syed Ateeb Ul Hasan</p>
+</footer>
+</html>
